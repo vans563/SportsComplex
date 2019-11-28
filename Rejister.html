@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      }
+
+
+      li {
+      float: left;
+      }
+
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+
+      li a:hover
+      {
+      background-color: #111;
+      }
+
+      h1
+      {
+        margin-block-end:0px;
+        background-color: #666;
+      padding: 25px;
+      text-align: center;
+      font-size: 35px;
+      color:black;
+      text-shadow: 3px 2px green;
+      }
+
+      .f
+{
+
+border:solid black;
+display:inline-block;
+border-shadow:5px 5px 5px;
+border-radius: 50px;
+padding: 60px;
+margin-left: 450px;
+}
+.bg-img {
+
+  background-image: url("re.png");
+
+  min-height: 500px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+      </style>
+      <center><h1> Xtreme Sports Studio</h1></center>
+  </head>
+  <body>
+    <ul>
+       <li><a href="index.html" target="_self">Home</a></li>
+       <li><a href="AboutUs.html" target="_blank">About Us</a></li>
+       <li style="float:middle"><a href="Rejister.html" target="_self">Rejistration</a></li>
+       <li><a href="login.html" target="_self">Login</a></li>
+       <li style="float:right"><a href="#about">Contact:7896754012</a></li>
+    </ul>
+
+<div class="bg-img">
+      <form action="login.html">
+<div class=f>
+<center><h3><font face="calligraph421 BT" color=black size=50>NEW USER</font></h3></center>
+<input type="text" class=form-control name="1" placeholder="First Name" required><br><BR>
+<input type="text" class=form-control name="2" placeholder="Last Name" required><br><BR>
+<input type="text" pattern="[6-9]{1}[0-9]{9}" title="Invalid Phone No." class=form-control name="3" placeholder="Phone" required><br><BR>
+<input type="email" class=form-control name="4" placeholder="Email" required><br><BR>
+<span style="font-size:18px">Gender:<input type="radio" name="gender" value=”Male” checked> Male
+<input type="radio" name="gender" value=”Female”> Female<br><BR></span>
+<input type="Submit" class="form-control submit" value="Submit">
+<input type="Reset" class="form-control submit" value="Reset">
+</form>
+</div>
+  </body>
+</html>
